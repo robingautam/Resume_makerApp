@@ -1,0 +1,41 @@
+body {
+   background-image: url("assets/5.jpg");
+   background-size: 1500px 800px;
+   background-repeat: no-repeat;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+    color: blue;
+	z-index: 4;
+	text-align: center;
+	text-color: white;
+}
+h1::first-letter{
+	color: red;
+	text-transform: uppercase;
+	font-size: 80px;
+	font-family: sans-serif;
+	
+}
+h2 {
+	color: #1295C9
+}
+.modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+ 
+  
